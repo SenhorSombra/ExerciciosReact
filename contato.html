@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/CSS/contato.css">
 </head>
 <body>
-    <ul class="menu" >
+    <ul id="menu" >
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -17,9 +17,12 @@
         </li>
 
     </ul>
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <form>
+    <div class="container">
+        <div>
+        
+        <form>
         <label for="nome">Nome:</label><br>
         <input type="text" id="nome">
         <br>
@@ -33,13 +36,13 @@
         <br>
         <br>
         <button>Enviar</button>
-    </form>
-
-    <h2>Endereço:</h2>
-
-    <p>Av.Paulista,100</p>
-    <p>São Paulo - SP</p>
-    <iframe 
+        </form>
+    </div>
+    <div class="ml-50">
+        
+        <p>Av.Paulista,100</p>
+        <p>São Paulo - SP</p>
+        <iframe 
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.075289853217!2d-46.653426585188456!3d-23.565739284680742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1661189738957!5m2!1spt-BR!2sbr" 
     width="600" 
     height="450" 
@@ -48,6 +51,23 @@
     loading="lazy" 
     referrerpolicy="no-referrer-when-downgrade">
     </iframe>
- <h2>sahusahusauh</h2>
+    </div>
+</div>
+
+<footer>
+    <div class="container mb-50">
+        <a href="https://www.facebook.com/vagner.jose.79" target="_blank">
+            <img class="tm-social p-30" src="assets/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/vagner.bw/" target="_blank">
+            <img class="tm-social p-30" src="assets/instagram.png" alt="instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/vagner-jose-2715b0117/" target="_blank">
+            <img class="tm-social p-30" src="assets/linkedin.png" alt="linkedin">
+        </a>
+    </div> 
+    <p class="center">Todos os direitos reservados: Senhor Sombra &copy;</p>
+</footer>
+
 </body>
 </html>
