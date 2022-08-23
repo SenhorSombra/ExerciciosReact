@@ -1,3 +1,9 @@
-.body {
-    background-color: red;
+.menu {
+    display: flex;
+    margin-left: 30px;
+    
+}
+
+.menu li{
+    margin-left: 25px;
 }
