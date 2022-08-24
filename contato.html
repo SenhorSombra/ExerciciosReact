@@ -24,19 +24,22 @@
         <div>
         
         <form>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
+        <label for="nome">Nome:</label> <br>
+        <input type="text" id="nome" onkeyup="validaNome()">
+        <div id="txtNome"></div>
         <br>
         <br>
         <label for="email">Email:</label><br>
-        <input type="email" id="email">
+        <input type="email" id="email" onkeyup="validaEmail()">
+         <div id="txtEmail"></div>
         <br>
         <br>
         <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+        <textarea name="assunto" id="assunto" onkeyup="validaAssunto()" cols="60" rows="5"></textarea>
+        <div id="txtAssunto"></div>
         <br>
         <br>
-        <button>Enviar</button>
+        <button onclick="enviar()">Enviar</button>
         </form>
     </div>
     <div class="ml-50">
@@ -69,6 +72,10 @@
     </div> 
     <p class="center">Todos os direitos reservados: Senhor Sombra &copy;</p>
 </footer>
+
+
+<script src="Javascript/script.js"></script>
+
 
 </body>
 </html>
